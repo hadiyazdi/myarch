@@ -94,6 +94,9 @@ mlocate
 mpv
 modemmanager
 networkmanager
+network-manager-applet
+gnome-icon-theme
+gnome-keyring
 ncdu
 netsurf
 ntfs-3g
