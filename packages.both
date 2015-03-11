@@ -127,19 +127,15 @@ youtube-dl
 zsh-syntax-highlighting
 
 ##GUI
-cinnamon
+mate
+mate-extra
 xorg
 xorg-server
 xorg-xinit
 xorg-utils
 xorg-server-utils
 
-nautilus
-evince
-gedit
-xfce4-terminal
 libreoffice-still
-eog
 
 
 ##aur
