@@ -122,6 +122,7 @@ truecrypt
 wget
 which
 wipe
+xdg-utils
 yaourt
 youtube-dl
 zsh-syntax-highlighting
