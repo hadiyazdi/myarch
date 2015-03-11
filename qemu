@@ -1,3 +1,14 @@
 #!/bin/bash
 
-qemu-system-x86_64 --cdrom out/archlinux-$(date +%Y.%m.%d)-dual.iso --boot order=d -m 1024 --enable-kvm --show-cursor
+DAY=$(date +%d)
+MONTH=$(date +%m)
+
+if [ $# -gt 0 ] ; then
+	DAY=$1
+fi
+
+if [ $# -gt 1 ] ; then
+	MONTH=$2
+fi
+
+qemu-system-x86_64 --cdrom out/archlinux-$(date +%Y.)$MONTH.$DAY-dual.iso --boot order=d -m 1024 --enable-kvm --show-cursor
