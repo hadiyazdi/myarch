@@ -15,10 +15,17 @@ setopt HIST_IGNORE_DUPS
 
 #Man colored pages
 
+
+#prompt
+autoload -U promptinit
+promptinit
+prompt oliver
+
 #syntax highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias ls='ls --color=yes'
-
+alias lock='cinnamon-screensaver-command -l'
+alias nano='nano -w -i -T 4 -E'
 # create a zkbd compatible hash;
 # to add other keys to this hash, see: man 5 terminfo
 typeset -A key
@@ -61,4 +68,7 @@ if (( ${+terminfo[smkx]} )) && (( ${+terminfo[rmkx]} )); then
     zle -N zle-line-init
     zle -N zle-line-finish
 fi
+
+command fortune
+echo
 
