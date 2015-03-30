@@ -139,6 +139,11 @@ virtualbox-guest-utils
 
 libreoffice-still
 
+##printer drivers
+cups
+ghostscript
+gsfonts
+libcups
 
 ##aur
 #bcwipe
