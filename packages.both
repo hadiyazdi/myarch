@@ -93,6 +93,7 @@ mercurial
 mlocate
 mpv
 modemmanager
+ms-sys
 networkmanager
 network-manager-applet
 gnome-icon-theme
@@ -123,6 +124,7 @@ truecrypt
 wget
 which
 wipe
+winusb
 xdg-utils
 yaourt
 youtube-dl
