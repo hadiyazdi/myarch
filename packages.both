@@ -98,6 +98,7 @@ networkmanager
 network-manager-applet
 gnome-icon-theme
 gnome-keyring
+grsync
 ncdu
 netsurf
 ntfs-3g
