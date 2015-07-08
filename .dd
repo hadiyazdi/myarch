@@ -1,0 +1,1 @@
+dd bs=4M if=out/?arch*06.iso of=/dev/sdx && sync
