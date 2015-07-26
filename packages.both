@@ -75,6 +75,7 @@ dvd+rw-tools
 epiphany
 ext3grep
 extundelete
+feh
 findutils
 foremost
 git
@@ -130,6 +131,7 @@ winusb
 xdg-utils
 yaourt
 youtube-dl
+zathura
 zsh-syntax-highlighting
 
 ##GUI
