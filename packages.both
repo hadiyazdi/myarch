@@ -117,6 +117,7 @@ python2
 python2-setuptools
 python2-pip
 qemu
+soundconverter
 sqlite
 reflector
 reaver
