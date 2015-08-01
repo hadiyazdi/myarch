@@ -1,0 +1,5 @@
+#!/bin/bash
+#recursive: find -type f -name "*.flac" -print0 | while read -d $'\0' a; do
+for a in *.flac; do
+  ffmpeg -i "$a" -qscale:a 0 "${a[@]/%flac/mp3}"
+done
